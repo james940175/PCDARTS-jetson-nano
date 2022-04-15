@@ -17,5 +17,6 @@ python3 train.py
 #### Evaluation on CIFAR100:
 
 ```
-python3 train.py --set cifar100
+python3 train.py \\
+       --set cifar100 \\
 ```
