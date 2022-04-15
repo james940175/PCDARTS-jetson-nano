@@ -24,6 +24,26 @@ python3 train.py
 ```
 
 
+## Results
+### Results on CIFAR10
+Method | Params(M) | Error(%)| Search-Cost
+--- | --- | --- | ---
+AmoebaNet-B|2.8|2.55|3150
+DARTSV1 | 3.3 | 3.00 | 0.4
+DARTSV2 | 3.3 | 2.76 | 1.0
+SNAS    | 2.8 | 2.85 |1.5
+PC-DARTS | 3.6 | **2.57** | **0.1**
+
+### Results on CIFAR100
+Method | Params(M) | Error(%)| Search-Cost
+--- | --- | --- | ---
+AmoebaNet-B|2.8|2.55|3150
+DARTSV1 | 3.3 | 3.00 | 0.4
+DARTSV2 | 3.3 | 2.76 | 1.0
+SNAS    | 2.8 | 2.85 |1.5
+PC-DARTS | 3.6 | **2.57** | **0.1**
+
+
 ## Visualization
 Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
 ```
