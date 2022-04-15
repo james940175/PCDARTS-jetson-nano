@@ -1,7 +1,7 @@
 # PCDARTS on jetson nano
 
 ## Usage
-#### Search on CIFAR10
+### Search on CIFAR10
 
 First search the best cell on CIFAR10
 ```
