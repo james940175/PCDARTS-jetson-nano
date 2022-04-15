@@ -25,8 +25,8 @@ python3 train.py
 
 
 ## Visualization
-Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the learned cells
+Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
 ```
 python visualize.py EXP
 ```
-where `EXP` can be replaced by any customized architectures in `genotypes.py`.
+where `EXP` can be replaced by any architectures in `genotypes.py`.
