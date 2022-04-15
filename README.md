@@ -7,3 +7,10 @@ First search the best cell on CIFAR10
 ```
 python3 train_search.py
 ```
+#### Evaluation on CIFAR10:
+
+```
+python train.py \\
+       --auxiliary \\
+       --cutout \\
+```
