@@ -7,7 +7,7 @@ First search the best cell on CIFAR10
 ```
 python3 train_search.py
 ```
-
+When finishing the search phase, you have to paste the mode to the genotypes.py
 #### Evaluation on CIFAR10:
 
 ```
