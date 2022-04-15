@@ -13,12 +13,12 @@ python3 train_search.py
 
 ```
 python3 train.py
-       --arch the_architecture_that_you_search_in_the_search_phase
+       --arch the_architecture_that_you_search
 ```
 #### Evaluation on CIFAR100:
 
 ```
 python3 train.py
        --set cifar100
-       --arch the_architecture_that_you_search_in_the_search_phase
+       --arch the_architecture_that_you_search
 ```
