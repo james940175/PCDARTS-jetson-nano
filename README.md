@@ -22,3 +22,11 @@ python3 train.py
        --set cifar100
        --arch the_architecture_that_you_search
 ```
+
+
+## Visualization
+Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the learned cells
+```
+python visualize.py EXP
+```
+where `EXP` can be replaced by any customized architectures in `genotypes.py`.
