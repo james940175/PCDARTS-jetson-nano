@@ -24,7 +24,7 @@ python3 train.py
 ```
 
 
-## Results
+## Test on jetson nano
 ### Results on CIFAR10
 Method | Params(M) | Error(%)| Search-Cost
 --- | --- | --- | ---
