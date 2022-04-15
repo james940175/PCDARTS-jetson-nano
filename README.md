@@ -12,14 +12,10 @@ python3 train_search.py
 #### Evaluation on CIFAR10:
 
 ```
-python train.py \\
-       --auxiliary \\
-       --cutout \\
+python3 train.py
 ```
 #### Evaluation on CIFAR100:
 
 ```
-python train.py \\
-       --auxiliary \\
-       --cutout \\
+python3 train.py --set cifar100
 ```
