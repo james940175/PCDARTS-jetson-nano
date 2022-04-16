@@ -28,20 +28,50 @@ python3 train.py
 
 ## Test on jetson nano
 ### Results on CIFAR10
-Model | Accuracy(%) | Params(M) | FLOPS(M) | Latency(s) | Throughput
---- | --- | --- | --- | --- | ---
-PCDARTS|2.8|2.55|3150
-PCDARTS-1/4 | 3.3 | 3.00 | 0.4
-PCDARTS-1/4-cut | 3.3 | 2.76 | 1.0
+Model | Accuracy(%) | Params(M) | FLOPS(M)
+--- | :---: | :---: | :---: 
+PCDARTS | 96.34 | 3.635 | 567.8
+PCDARTS-1/4 | 95.40 | 0.989 | 162.1
+PCDARTS-1/4-cut | 95.22 | 0.746 | 130.1
+
+#### Batch size = 1
+Model | Latency(s) | Throughput
+--- | :---: | :---: 
+PCDARTS |  | 
+PCDARTS-1/4 | 19.6 | 14.7
+PCDARTS-1/4-cut | 17.8 | 18.9
+
+#### Batch size = 20
+Model | Latency(s) | Throughput
+--- | :---: | :---: 
+PCDARTS-1/4 | 30.16 | 176.3
+PCDARTS-1/4-cut | 27.66 | 241.6
+
+<br />
+<br />
 
 ### Results on CIFAR100
-Model | Accuracy(%) | Params(M) | FLOPS(M) | Latency(s) | Throughput
---- | --- | --- | --- | --- | ---
-PCDARTS|2.8|2.55|3150
-PCDARTS-1/4 | 3.3 | 3.00 | 0.4
-PCDARTS-1/4-cut | 3.3 | 2.76 | 1.0
+Model | Accuracy(%) | Params(M) | FLOPS(M)
+--- | :---: | :---: | :---: 
+PCDARTS | 96.34 | 3.635 | 567.8
+PCDARTS-1/4 | 95.40 | 0.989 | 162.1
+PCDARTS-1/4-cut | 95.22 | 0.746 | 130.1
+
+#### Batch size = 1
+Model | Latency(s) | Throughput
+--- | :---: | :---: 
+PCDARTS |  | 
+PCDARTS-1/4 | 19.6 | 14.7
+PCDARTS-1/4-cut | 17.8 | 18.9
+
+#### Batch size = 20
+Model | Latency(s) | Throughput
+--- | :---: | :---: 
+PCDARTS-1/4 | 30.16 | 176.3
+PCDARTS-1/4-cut | 27.66 | 241.6
 
 
+   
 ## FLOPS Caculation
 Package [THOP](https://github.com/Lyken17/pytorch-OpCounter) is required to caculate the FLOPS of the model
 ```
@@ -63,6 +93,12 @@ where `EXP` can be replaced by any architectures in `genotypes.py`.
 
 
 ## Reference
+H. Liu, K. Simonyan, and Y. Yang. DARTS: Differentiable architecture  search. ICLR, 2019
+
+Xu, Y., Xie, L., Zhang, X., Chen, X., Qi, G.-J., Tian, Q., and Xiong, H. PC-DARTS: Partial channel connections for memory-efficient architecture search. In International Conference on Learning Representations, 2020 
+
+Y. Mao, G. Zhong, Y. Wang and Z. Deng, "Differentiable Light-Weight Architecture Search," 2021 IEEE International Conference on Multimedia and Expo (ICME), 2021, pp. 1-6, doi: 10.1109/ICME51207.2021.9428132.
+
 [PC-DARTS](https://github.com/yuhuixu1993/PC-DARTS)
 
 [DARTS](https://github.com/quark0/darts)
