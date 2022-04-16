@@ -28,22 +28,18 @@ python3 train.py
 
 ## Test on jetson nano
 ### Results on CIFAR10
-Method | Params(M) | Error(%)| Search-Cost
---- | --- | --- | ---
-AmoebaNet-B|2.8|2.55|3150
-DARTSV1 | 3.3 | 3.00 | 0.4
-DARTSV2 | 3.3 | 2.76 | 1.0
-SNAS    | 2.8 | 2.85 |1.5
-PC-DARTS | 3.6 | **2.57** | **0.1**
+Model | Accuracy(%) | Params(M) | FLOPS(M) | Latency(s) | Throughput
+--- | --- | --- | --- | --- | ---
+PCDARTS|2.8|2.55|3150
+PCDARTS-1/4 | 3.3 | 3.00 | 0.4
+PCDARTS-1/4-cut | 3.3 | 2.76 | 1.0
 
 ### Results on CIFAR100
-Method | Params(M) | Error(%)| Search-Cost
---- | --- | --- | ---
-AmoebaNet-B|2.8|2.55|3150
-DARTSV1 | 3.3 | 3.00 | 0.4
-DARTSV2 | 3.3 | 2.76 | 1.0
-SNAS    | 2.8 | 2.85 |1.5
-PC-DARTS | 3.6 | **2.57** | **0.1**
+Model | Accuracy(%) | Params(M) | FLOPS(M) | Latency(s) | Throughput
+--- | --- | --- | --- | --- | ---
+PCDARTS|2.8|2.55|3150
+PCDARTS-1/4 | 3.3 | 3.00 | 0.4
+PCDARTS-1/4-cut | 3.3 | 2.76 | 1.0
 
 
 ## FLOPS Caculation
