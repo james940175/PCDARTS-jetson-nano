@@ -47,6 +47,8 @@ PC-DARTS | 3.6 | **2.57** | **0.1**
 ## FLOPS Caculation
 Package [THOP](https://github.com/Lyken17/pytorch-OpCounter) is required to caculate the FLOPS of the model
 ```
+pip install thop
+
 python3 flops.py --arch the_architecture_that_you_search
 ```
 
@@ -54,7 +56,6 @@ python3 flops.py --arch the_architecture_that_you_search
 ## Visualization
 Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
 ```
-pip install thop
 python3 visualize.py EXP
 ```
 where `EXP` can be replaced by any architectures in `genotypes.py`.
