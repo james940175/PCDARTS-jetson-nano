@@ -122,6 +122,9 @@ python3 flops.py
 ## Visualization
 Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
 ```
+pip3 install graphviz
+```
+```
 python3 visualize.py EXP
 ```
 where `EXP` can be replaced by any architectures in `genotypes.py`.
