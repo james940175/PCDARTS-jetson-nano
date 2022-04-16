@@ -61,3 +61,9 @@ Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is requ
 python3 visualize.py EXP
 ```
 where `EXP` can be replaced by any architectures in `genotypes.py`.
+
+
+## Reference
+[PC-DARTS](https://github.com/yuhuixu1993/PC-DARTS)
+[DARTS](https://github.com/quark0/darts)
+[THOP: PyTorch-OpCounter](https://github.com/Lyken17/pytorch-OpCounter)
