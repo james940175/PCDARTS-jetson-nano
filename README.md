@@ -50,7 +50,8 @@ Package [THOP](https://github.com/Lyken17/pytorch-OpCounter) is required to cacu
 pip3 install thop
 ```
 ```
-python3 flops.py --arch the_architecture_that_you_search
+python3 flops.py
+       --arch the_architecture_that_you_search
 ```
 
 
