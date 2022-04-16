@@ -54,6 +54,7 @@ pip3 install thop
 ```
 python3 flops.py
        --arch the_architecture_that_you_search
+       --model_path model_path.pt
 ```
 
 
