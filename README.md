@@ -48,7 +48,8 @@ PC-DARTS | 3.6 | **2.57** | **0.1**
 Package [THOP](https://github.com/Lyken17/pytorch-OpCounter) is required to caculate the FLOPS of the model
 ```
 pip3 install thop
-
+```
+```
 python3 flops.py --arch the_architecture_that_you_search
 ```
 
