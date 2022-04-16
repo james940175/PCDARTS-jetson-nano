@@ -80,11 +80,11 @@ PCDARTS-1/4-cut | 27.66 | 241.6
 
 ## Pretrained models
 **CIFAR-10** 
-- PCDARTS-1/4 ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
+- PCDARTS-1/4 ([cifar10_model.pt](https://drive.google.com/file/d/1IAJ43zyFcyUZcef3sAX6vyUhUX7_Xs0v/view?usp=sharing))
 ```
 cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
 ```
-- PCDARTS-1/4-cut ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
+- PCDARTS-1/4-cut ([cifar10_model_cut.pt](https://drive.google.com/file/d/1sX3-EOAONXEe3CeA5dE9qv-Ml41_-GMu/view?usp=sharing))
 ```
 cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
 ```
@@ -92,11 +92,11 @@ cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
 <br />
 
 **CIFAR-100** 
-- PCDARTS-1/4 ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
+- PCDARTS-1/4 ([cifar100_model.pt](https://drive.google.com/file/d/1MFCK-VY_Knn3PqQ-0J8JbsISEaOQSIDU/view?usp=sharing))
 ```
 cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
 ```
-- PCDARTS-1/4-cut ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
+- PCDARTS-1/4-cut ([cifar100_model_cut.pt](https://drive.google.com/file/d/1pxKi_mWnfY5nbQczWBhqdmzUbXiUBOd0/view?usp=sharing))
 ```
 cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
 ```
