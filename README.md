@@ -2,7 +2,6 @@
 
 ## Usage
 #### Search on CIFAR10
-
 - First search the best cell on CIFAR10
 - When finishing the search phase, you have to paste the mode in `genotypes.py`
 ```
@@ -10,20 +9,22 @@ python3 train_search.py
 ```
 
 #### Evaluation on CIFAR10:
-
 ```
 python3 train.py
        --arch the_architecture_that_you_search
        --model_path model_path.pt
 ```
-#### Evaluation on CIFAR100:
 
+#### Evaluation on CIFAR100:
 ```
 python3 train.py
        --set cifar100
        --arch the_architecture_that_you_search
        --model_path model_path.pt
 ```
+
+
+
 
 
 ## Test on jetson nano
@@ -70,8 +71,28 @@ Model | Latency(s) | Throughput
 PCDARTS-1/4 | 30.16 | 176.3
 PCDARTS-1/4-cut | 27.66 | 241.6
 
+<br />
 
+
+
+
+
+
+## Pretrained models
+**CIFAR-10** ([cifar10_model.pt](https://drive.google.com/file/d/1Y13i4zKGKgjtWBdC0HWLavjO7wvEiGOc/view?usp=sharing))
+```
+cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
+```
+
+**PTB** ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
+```
+cd rnn && python test.py --model_path ptb_model.pt
+```
    
+   
+   
+   
+
 ## FLOPS Caculation
 Package [THOP](https://github.com/Lyken17/pytorch-OpCounter) is required to caculate the FLOPS of the model
 ```
@@ -84,12 +105,17 @@ python3 flops.py
 ```
 
 
+
+
 ## Visualization
 Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
 ```
 python3 visualize.py EXP
 ```
 where `EXP` can be replaced by any architectures in `genotypes.py`.
+
+
+
 
 
 ## Reference
