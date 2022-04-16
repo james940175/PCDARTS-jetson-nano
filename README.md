@@ -79,14 +79,26 @@ PCDARTS-1/4-cut | 27.66 | 241.6
 
 
 ## Pretrained models
-**CIFAR-10** ([cifar10_model.pt](https://drive.google.com/file/d/1Y13i4zKGKgjtWBdC0HWLavjO7wvEiGOc/view?usp=sharing))
+**CIFAR-10** 
+- PCDARTS-1/4 ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
+```
+cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
+```
+- PCDARTS-1/4-cut ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
 ```
 cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
 ```
 
-**PTB** ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
+<br />
+
+**CIFAR-100** 
+- PCDARTS-1/4 ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
 ```
-cd rnn && python test.py --model_path ptb_model.pt
+cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
+```
+- PCDARTS-1/4-cut ([ptb_model.pt](https://drive.google.com/file/d/1Mt_o6fZOlG-VDF3Q5ModgnAJ9W6f_av2/view?usp=sharing))
+```
+cd cnn && python test.py --auxiliary --model_path cifar10_model.pt
 ```
    
    
