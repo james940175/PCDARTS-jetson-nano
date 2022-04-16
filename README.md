@@ -54,6 +54,7 @@ python3 flops.py --arch the_architecture_that_you_search
 ## Visualization
 Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
 ```
+pip install thop
 python3 visualize.py EXP
 ```
 where `EXP` can be replaced by any architectures in `genotypes.py`.
