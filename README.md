@@ -53,9 +53,9 @@ PCDARTS-1/4-cut | 27.66 | 241.6
 ### Results on CIFAR100
 Model | Accuracy(%) | Params(M) | FLOPS(M)
 --- | :---: | :---: | :---: 
-PCDARTS | 96.34 | 3.635 | 567.8
-PCDARTS-1/4 | 95.40 | 0.989 | 162.1
-PCDARTS-1/4-cut | 95.22 | 0.746 | 130.1
+PCDARTS | 81.06 | 3.687 | 567.9
+PCDARTS-1/4 | 77.73 | 1.041 | 162.1
+PCDARTS-1/4-cut | 76.06 | 0.798 | 130.2
 
 #### Batch size = 1
 Model | Latency(s) | Throughput
