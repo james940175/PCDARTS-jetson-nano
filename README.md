@@ -12,7 +12,6 @@ python3 train_search.py
 ```
 python3 train.py
        --arch the_architecture_that_you_search
-       --model_path model_path.pt
 ```
 
 #### Evaluation on CIFAR100:
@@ -20,7 +19,6 @@ python3 train.py
 python3 train.py
        --set cifar100
        --arch the_architecture_that_you_search
-       --model_path model_path.pt
 ```
 
 
