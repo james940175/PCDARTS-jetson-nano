@@ -47,7 +47,6 @@ PCDARTS-1/4 | 30.16 | 176.3
 PCDARTS-1/4-cut | 27.66 | 241.6
 
 <br />
-<br />
 
 ### Results on CIFAR100
 Model | Accuracy(%) | Params(M) | FLOPS(M)
