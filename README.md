@@ -21,6 +21,22 @@ python3 train.py
        --arch the_architecture_that_you_search
 ```
 
+#### Test on CIFAR10:
+```
+python3 test.py
+       --arch the_architecture_that_you_search
+       --model_path model_path.pt
+       --batch_size batch_size
+```
+
+#### Test on CIFAR100:
+```
+python3 test_cifar100.py
+       --arch the_architecture_that_you_search
+       --model_path model_path.pt
+       --batch_size batch_size
+```
+
 
 
 
