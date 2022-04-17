@@ -10,23 +10,17 @@ python3 train_search.py
 
 #### Evaluation on CIFAR10:
 ```
-python3 train.py
-       --arch the_architecture_that_you_search
+python3 train.py --arch the_architecture_that_you_search
 ```
 
 #### Evaluation on CIFAR100:
 ```
-python3 train.py
-       --set cifar100
-       --arch the_architecture_that_you_search
+python3 train.py --set cifar100 --arch the_architecture_that_you_search
 ```
 
 #### Test on CIFAR10:
 ```
-python3 test.py
-       --arch the_architecture_that_you_search
-       --model_path model_path.pt
-       --batch_size batch_size
+python3 test.py --arch the_architecture_that_you_search --model_path model_path.pt --batch_size batch_size
 ```
 
 #### Test on CIFAR100:
