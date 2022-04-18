@@ -67,12 +67,12 @@ Model | Latency(s) | Throughput
 --- | :---: | :---: 
 PCDARTS | 23.4 | 3.85
 PCDARTS-1/4 | 20.9 | 14.4
-PCDARTS-1/4-cut | 34.0 | 161.1
+PCDARTS-1/4-cut |  | 
 
 #### Batch size = 20
 Model | Latency(s) | Throughput
 --- | :---: | :---: 
-PCDARTS-1/4 |  | 
+PCDARTS-1/4 | 34.0 | 161.1
 PCDARTS-1/4-cut |  | 
 
 <br />
