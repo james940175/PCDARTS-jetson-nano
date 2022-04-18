@@ -35,7 +35,7 @@ python3 test_cifar100.py --arch the_architecture_that_you_search --model_path mo
 ## Test on jetson nano
 ### Results on CIFAR10
 Model | Accuracy(%) | Params(M) | FLOPS(M)
---- | :---: | :---: | :---: 
+:---: | :---: | :---: | :---: 
 PCDARTS | 96.34 | 3.635 | 567.8
 PCDARTS-1/4 | 95.40 | 0.989 | 162.1
 PCDARTS-1/4-cut | 95.22 | 0.746 | 130.1
