@@ -73,7 +73,7 @@ PCDARTS-1/4-cut | 18.5 | 18.1
 Model | Latency(s) | Throughput
 --- | :---: | :---: 
 PCDARTS-1/4 | 34.0 | 161.1
-PCDARTS-1/4-cut |  | 
+PCDARTS-1/4-cut | 31.8 | 222.0
 
 <br />
 
