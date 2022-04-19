@@ -30,6 +30,27 @@ python3 test_cifar100.py --arch the_architecture_that_you_search --model_path mo
 
 
 
+## FLOPS Caculation
+Package [THOP](https://github.com/Lyken17/pytorch-OpCounter) is required to caculate the FLOPS of the model
+```
+pip3 install thop
+```
+```
+python3 flops.py --arch the_architecture_that_you_search --model_path model_path.pt
+```
+
+
+
+
+## Visualization
+Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
+```
+python3 visualize.py EXP
+```
+where `EXP` can be replaced by any architectures in `genotypes.py`.
+
+
+
 
 
 ## Test on jetson nano
@@ -109,24 +130,7 @@ python3 test_cifar100.py --arch PCDARTS_quarter_cut --model_path cifar100_model_
    
    
 
-## FLOPS Caculation
-Package [THOP](https://github.com/Lyken17/pytorch-OpCounter) is required to caculate the FLOPS of the model
-```
-pip3 install thop
-```
-```
-python3 flops.py --arch the_architecture_that_you_search --model_path model_path.pt
-```
 
-
-
-
-## Visualization
-Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
-```
-python3 visualize.py EXP
-```
-where `EXP` can be replaced by any architectures in `genotypes.py`.
 
 
 
