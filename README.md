@@ -11,10 +11,9 @@ python3 train_search.py
 ### Evaluation Phase
 ```
 python3 train.py --arch cell_structure
-
-Add --set cifar100 if evaluate on CIFAR100.
 ```
 where `cell_structure` can be replaced by any architectures in `genotypes.py`
+Add `--set cifar100` if evaluate on CIFAR100
 
 ### Test
 ```
