@@ -35,15 +35,8 @@ pip3 install thop
 ```
 python3 flops.py --arch cell_structure --model_path model_path.pt
 ```
-where `cell_structure` can be replaced by any architectures in `genotypes.py`
-<br />
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-`model_path` is the path to your trained model
+- `cell_structure` can be replaced by any architectures in `genotypes.py`
+- `model_path` is the path to your trained model
 
 
 
