@@ -10,16 +10,20 @@ python3 train_search.py
 
 #### Evaluation Phase
 ```
-python3 train.py --arch 'cell_structure'
+python3 train.py --arch `cell_structure`
 
 Add --set cifar100 if evaluate on CIFAR100.
 ```
-where `cell_structure` can be replaced by any architectures in `genotypes.py`.
+where `cell_structure` can be replaced by any architectures in `genotypes.py`
 
 #### Test
 ```
-python3 test.py --arch the_architecture_that_you_search --model_path model_path.pt --batch_size batch_size
+python3 test.py --arch cell_structure --model_path model_weight.pt --batch_size 20
+
+Add --set cifar100 if evaluate on CIFAR100.
 ```
+where `cell_structure` can be replaced by any architectures in `genotypes.py`
+     
 
 
 
@@ -40,7 +44,7 @@ Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is requ
 ```
 python3 visualize.py cell_structure
 ```
-where `cell_structure` can be replaced by any architectures in `genotypes.py`.
+where `cell_structure` can be replaced by any architectures in `genotypes.py`
 
 
 
