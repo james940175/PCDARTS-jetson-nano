@@ -13,6 +13,7 @@ python3 train_search.py
 python3 train.py --arch cell_structure
 ```
 where `cell_structure` can be replaced by any architectures in `genotypes.py`
+<br />
 Add `--set cifar100` if evaluate on CIFAR100
 
 ### Test
