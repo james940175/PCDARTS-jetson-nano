@@ -29,7 +29,7 @@ where `cell_structure` can be replaced by any architectures in `genotypes.py`
 &nbsp;
 &nbsp;
 &nbsp;
-`model_path` is the path to your trained model
+` model_path` is the path to your trained model
 <br />
 &nbsp;
 &nbsp;
