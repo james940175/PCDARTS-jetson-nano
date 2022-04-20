@@ -1,31 +1,23 @@
 # PCDARTS on jetson nano
 
 ## Usage
-#### Search on CIFAR10
+#### Search Phase
 - Search the best cell on CIFAR10
 - When finishing the search phase, you have to paste the model in `genotypes.py`
 ```
 python3 train_search.py
 ```
 
-#### Evaluation on CIFAR10:
+#### Evaluation Phase
 ```
-python3 train.py --arch the_architecture_that_you_search
+python3 train.py --arch cell_structure
+Add --cifar100 if search on CIFAR100.
 ```
+where `cell_structure` can be replaced by any architectures in `genotypes.py`.
 
-#### Evaluation on CIFAR100:
-```
-python3 train.py --set cifar100 --arch the_architecture_that_you_search
-```
-
-#### Test on CIFAR10:
+#### Test
 ```
 python3 test.py --arch the_architecture_that_you_search --model_path model_path.pt --batch_size batch_size
-```
-
-#### Test on CIFAR100:
-```
-python3 test_cifar100.py --arch the_architecture_that_you_search --model_path model_path.pt --batch_size batch_size
 ```
 
 
