@@ -51,6 +51,33 @@ where `cell_structure` can be replaced by any architectures in `genotypes.py`
 
 
 
+## Pretrained models
+**CIFAR-10** 
+- PCDARTS-1/4 ([cifar10_model.pt](https://drive.google.com/file/d/1IAJ43zyFcyUZcef3sAX6vyUhUX7_Xs0v/view?usp=sharing))
+```
+python3 test.py --arch PCDARTS_quarter --model_path cifar10_model.pt
+```
+- PCDARTS-1/4-cut ([cifar10_model_cut.pt](https://drive.google.com/file/d/1sX3-EOAONXEe3CeA5dE9qv-Ml41_-GMu/view?usp=sharing))
+```
+python3 test.py --arch PCDARTS_quarter_cut --model_path cifar10_model_cut.pt
+```
+
+<br />
+
+**CIFAR-100** 
+- PCDARTS-1/4 ([cifar100_model.pt](https://drive.google.com/file/d/1MFCK-VY_Knn3PqQ-0J8JbsISEaOQSIDU/view?usp=sharing))
+```
+python3 test_cifar100.py --arch PCDARTS_quarter --model_path cifar100_model.pt
+```
+- PCDARTS-1/4-cut ([cifar100_model_cut.pt](https://drive.google.com/file/d/1pxKi_mWnfY5nbQczWBhqdmzUbXiUBOd0/view?usp=sharing))
+```
+python3 test_cifar100.py --arch PCDARTS_quarter_cut --model_path cifar100_model_cut.pt
+```
+
+
+
+
+
 
 ## Test on jetson nano
 
@@ -103,28 +130,7 @@ PCDARTS-1/4-cut | 31.8 | 222.0
 
 
 
-## Pretrained models
-**CIFAR-10** 
-- PCDARTS-1/4 ([cifar10_model.pt](https://drive.google.com/file/d/1IAJ43zyFcyUZcef3sAX6vyUhUX7_Xs0v/view?usp=sharing))
-```
-python3 test.py --arch PCDARTS_quarter --model_path cifar10_model.pt
-```
-- PCDARTS-1/4-cut ([cifar10_model_cut.pt](https://drive.google.com/file/d/1sX3-EOAONXEe3CeA5dE9qv-Ml41_-GMu/view?usp=sharing))
-```
-python3 test.py --arch PCDARTS_quarter_cut --model_path cifar10_model_cut.pt
-```
 
-<br />
-
-**CIFAR-100** 
-- PCDARTS-1/4 ([cifar100_model.pt](https://drive.google.com/file/d/1MFCK-VY_Knn3PqQ-0J8JbsISEaOQSIDU/view?usp=sharing))
-```
-python3 test_cifar100.py --arch PCDARTS_quarter --model_path cifar100_model.pt
-```
-- PCDARTS-1/4-cut ([cifar100_model_cut.pt](https://drive.google.com/file/d/1pxKi_mWnfY5nbQczWBhqdmzUbXiUBOd0/view?usp=sharing))
-```
-python3 test_cifar100.py --arch PCDARTS_quarter_cut --model_path cifar100_model_cut.pt
-```
    
    
    
