@@ -3,7 +3,7 @@
 ## Usage
 #### Search on CIFAR10
 - Search the best cell on CIFAR10
-- When finishing the search phase, you have to paste the mode in `genotypes.py`
+- When finishing the search phase, you have to paste the model in `genotypes.py`
 ```
 python3 train_search.py
 ```
