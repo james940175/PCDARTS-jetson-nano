@@ -20,7 +20,7 @@ where `cell_structure` can be replaced by any architectures in `genotypes.py`
 ```
 python3 test.py --arch cell_structure --model_path model_weight.pt --batch_size 1
 
-Add --set cifar100 if evaluate on CIFAR100.
+Add --set cifar100 if test on CIFAR100.
 ```
 where `cell_structure` can be replaced by any architectures in `genotypes.py`
 <br />
