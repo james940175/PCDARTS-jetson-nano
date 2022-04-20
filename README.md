@@ -24,7 +24,8 @@ Add --set cifar100 if evaluate on CIFAR100.
 ```
 where `cell_structure` can be replaced by any architectures in `genotypes.py`
 <br />
-&nbsp`model_path` is the path to your trained model
+&nbsp;
+`model_path` is the path to your trained model
 
 
 
