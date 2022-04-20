@@ -23,7 +23,8 @@ python3 test.py --arch cell_structure --model_path model_weight.pt --batch_size 
 Add --set cifar100 if evaluate on CIFAR100.
 ```
 where `cell_structure` can be replaced by any architectures in `genotypes.py`
-     
+<br />
+      `model_path` is the path to your trained model
 
 
 
