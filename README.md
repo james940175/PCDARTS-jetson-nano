@@ -75,12 +75,12 @@ where `cell_structure` can be replaced by any architectures in `genotypes.py`
 
 ## Test on jetson nano
 ### Software Environment
-```
-OS: Ubuntu 20.04.3 LTS
-Python: 3.8.10
-Pytorch: 1.10.2 + cu113
-Torchvision: 0.11.3 + cu113
-```
+
+- OS: Ubuntu 20.04.3 LTS
+- Python: 3.8.10
+- Pytorch: 1.10.2 + cu113
+- Torchvision: 0.11.3 + cu113
+
 ### Results on CIFAR10
 Model | Accuracy(%) | Params(M) | FLOPS(M)
 --- | :---: | :---: | :---: 
