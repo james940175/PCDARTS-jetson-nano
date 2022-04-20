@@ -29,8 +29,10 @@ where `cell_structure` can be replaced by any architectures in `genotypes.py`
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
 `model_path` is the path to your trained model
 <br />
+&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
@@ -49,6 +51,7 @@ python3 flops.py --arch cell_structure --model_path model_path.pt
 ```
 where `cell_structure` can be replaced by any architectures in `genotypes.py`
 <br />
+&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
