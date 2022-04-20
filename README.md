@@ -11,6 +11,7 @@ python3 train_search.py
 #### Evaluation Phase
 ```
 python3 train.py --arch 'cell_structure'
+
 Add --cifar100 if search on CIFAR100.
 ```
 where `cell_structure` can be replaced by any architectures in `genotypes.py`.
