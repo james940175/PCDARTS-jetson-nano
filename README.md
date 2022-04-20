@@ -14,7 +14,7 @@ python3 train.py --arch cell_structure
 
 Add --set cifar100 if evaluate on CIFAR100.
 ```
-where `cell_structure` can be replaced by any architectures in `genotypes.py`
+- `cell_structure` can be replaced by any architectures in `genotypes.py`
 
 ### Test
 ```
@@ -24,14 +24,7 @@ Add --set cifar100 if test on CIFAR100.
 ```
 - `cell_structure` can be replaced by any architectures in `genotypes.py`
 - `model_path` is the path to your trained model
-<br />
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-`batch_size` can be change to increase throughput
+- `batch_size` can be change to increase throughput
 
 
 ## FLOPS Caculation
