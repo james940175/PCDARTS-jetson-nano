@@ -24,7 +24,7 @@ Add --set cifar100 if evaluate on CIFAR100.
 &nbsp;
 &nbsp;
 &nbsp;
-`python3 train.py --arch PCDARTS_quarter`
+`python3 train.py --arch PCDARTS_quarter` or `python3 train.py --arch PCDARTS_quarter_cut`
 
 
 ### Test
