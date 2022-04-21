@@ -19,7 +19,7 @@ Add --set cifar100 if evaluate on CIFAR100.
 in genotypes.py
 <p align="center">
   <img src="img/genotypes_example.png" alt="darts" width="90%">
-</p>
+</p><br />
 `python3 train.py --arch PCDARTS_quarter`
 
 ### Test
