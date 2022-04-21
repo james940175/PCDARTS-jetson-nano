@@ -50,8 +50,6 @@ python3 flops.py --arch cell_structure --model_path model_path.pt
 - `model_path` is the path to your trained model
 
 
-
-
 ## Visualization
 Package [graphviz](https://graphviz.readthedocs.io/en/stable/index.html) is required to visualize the cells that you search
 ```
@@ -133,18 +131,6 @@ Model | Latency(s) | Throughput
 --- | :---: | :---: 
 PCDARTS-1/4 | 34.0 | 161.1
 PCDARTS-1/4-cut | 31.8 | 222.0
-
-
-
-
-
-
-
-
-   
-   
-   
-   
 
 
 
