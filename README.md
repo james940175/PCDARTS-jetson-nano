@@ -15,11 +15,12 @@ python3 train.py --arch cell_structure
 Add --set cifar100 if evaluate on CIFAR100.
 ```
 - `cell_structure` can be replaced by any architectures in `genotypes.py`
-- example:<br />
+- Example:<br />
 in genotypes.py
 <p align="center">
   <img src="img/genotypes_example.png" alt="darts" width="90%">
 </p>
+
 ```
 python3 train.py --arch PCDARTS_quarter
 ```
