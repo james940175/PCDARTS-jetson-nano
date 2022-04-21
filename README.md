@@ -18,9 +18,9 @@ Add --set cifar100 if evaluate on CIFAR100.
 
 ### Test
 ```
-python3 test.py --arch cell_structure --model_path model_weight.pt --batch_size 1           #CIFAR10
+python3 test.py --arch cell_structure --model_path model_weight.pt --batch_size 1             #CIFAR10
 
-python3 test_cifar100.py --arch cell_structure --model_path model_weight.pt --batch_size 1  #CIFAR100
+python3 test_cifar100.py --arch cell_structure --model_path model_weight.pt --batch_size 1    #CIFAR100
 ```
 - `cell_structure` can be replaced by any architectures in `genotypes.py`
 - `model_path` is the path to your trained model
