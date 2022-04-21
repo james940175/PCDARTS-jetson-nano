@@ -18,9 +18,9 @@ Add --set cifar100 if evaluate on CIFAR100.
 - Example:<br />
   in genotypes.py
   <p align="center">
-    <img src="img/genotypes_example.png" alt="darts" width="90%">
+    <img src="img/genotypes_example.png" alt="darts" width="95%">
   </p>
-- `python3 train.py --arch PCDARTS_quarter`
+`python3 train.py --arch PCDARTS_quarter`
 
 
 ### Test
